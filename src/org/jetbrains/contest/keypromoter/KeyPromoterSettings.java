@@ -25,11 +25,11 @@ public class KeyPromoterSettings {
     public boolean allButtonsEnabled = false;
 
     /** Time of popup display. */
-    public long displayTime = 3000;
+    public long displayTime = 700;
     /** Animation delay time. */
     public long flashAnimationDelay = 150;
     /** Count of invocations after which ask for creation of shortcut for actions without them. */
-    public int proposeToCreateShortcutCount = 3;
+    public int proposeToCreateShortcutCount = -1;
     /** Popup position fixed or folow the mouse clicks. */
     public boolean fixedTipPosistion = false;
     /** Popup template. */
